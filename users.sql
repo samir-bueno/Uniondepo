@@ -1,14 +1,14 @@
 CREATE TABLE users (
-    "id" INTEGER NOT NULL,
-    "name" VARCHAR,
-    "lastname" VARCHAR,
-    "email" VARCHAR,
-    "password" BLOB,
-    "address" VARCHAR,
-    "phone_number" VARCHAR,
-    "comuna_id" INTEGER,
-    "rol_id" INTEGER,
-	PRIMARY KEY("id" AUTOINCREMENT),
-    FOREIGN KEY("comuna_id") REFERENCES "comunas"("id"),
-    FOREIGN KEY("rol_id") REFERENCES "rols"("id")
+    "ID" INTEGER NOT NULL,
+    "Name" VARCHAR,
+    "Lastname" VARCHAR,
+    "Email" VARCHAR,
+    "Password" BLOB,
+    "Address" VARCHAR,
+    "Phone_number" VARCHAR,
+    "Comuna_id" INTEGER,
+    "Rol_id" INTEGER,
+	PRIMARY KEY("ID" AUTOINCREMENT),
+    FOREIGN KEY("Comuna_id") REFERENCES "Comunas"("ID"),
+    FOREIGN KEY("Rol_id") REFERENCES "Rols"("ID")
 );
