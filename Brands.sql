@@ -3,3 +3,7 @@ create table brands(
    Name varchar(255),
    Description text
 );
+
+
+INSERT INTO `brands`(`Name`)
+VALUES ('Adidas'), ('Nike'), ('Fila'), ('Puma')
