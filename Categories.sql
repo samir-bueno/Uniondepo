@@ -7,4 +7,5 @@ CREATE TABLE categories (
 INSERT INTO `categories` (`ID`, `Name`, `Description`)
 VALUES 
 ('1', 'Camiseta', NULL), 
-('2', 'Short', NULL);
+('2', 'Campera', NULL),
+('3', 'Short', NULL);
