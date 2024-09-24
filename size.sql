@@ -2,3 +2,6 @@ CREATE TABLE size (
 ID INTEGER AUTO_INCREMENT PRIMARY KEY,
 Sizes VARCHAR(255)
 );
+
+INSERT INTO `size`(`Sizes`) 
+VALUES ('XS','S', 'M', 'L', 'XL', 'XXL')

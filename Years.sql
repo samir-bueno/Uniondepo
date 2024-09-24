@@ -2,3 +2,7 @@ CREATE TABLE years (
    ID  INTEGER AUTO_INCREMENT PRIMARY KEY,
    Year VARCHAR(255) NOT NULL
 );
+
+
+INSERT INTO `years`(`Year`) 
+VALUES ('1980'),('1985'),('1990'),('1995'),('2000'),('2005'),('2010'),('2015'),('2020'),('2024');
