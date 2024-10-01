@@ -29,7 +29,7 @@ VALUES
 
 ('5', 'Cam._Japan', "Japón", '100000', (SELECT ID FROM categories WHERE Name = "Camiseta"), (SELECT ID FROM size WHERE Sizes = "M"), (SELECT ID FROM color WHERE types_Colors = "Blanco"), (SELECT ID FROM brands WHERE Name = "Adidas"), (SELECT ID FROM years WHERE Year = "2005"), NULL),
 
-('6', 'Cam._Italia', "Italia", '65000', (SELECT ID FROM categories WHERE Name = "Camiseta"), (SELECT ID FROM size WHERE Sizes = "XL"), (SELECT ID FROM color WHERE types_Colors = "Blanco"), (SELECT ID FROM brands WHERE Name = "Pluma"), (SELECT ID FROM years WHERE Year = "2005"), NULL),
+('6', 'Cam._Italia', "Italia", '65000', (SELECT ID FROM categories WHERE Name = "Camiseta"), (SELECT ID FROM size WHERE Sizes = "XL"), (SELECT ID FROM color WHERE types_Colors = "Blanco"), (SELECT ID FROM brands WHERE Name = "Puma"), (SELECT ID FROM years WHERE Year = "2005"), NULL),
 
 ('7', 'Cam._Escocia', "Escocia", '80000', (SELECT ID FROM categories WHERE Name = "Camiseta"), (SELECT ID FROM size WHERE Sizes = "L"), (SELECT ID FROM color WHERE types_Colors = "Azul"), (SELECT ID FROM brands WHERE Name = "Fila"), (SELECT ID FROM years WHERE Year = "2000"), NULL),
 
