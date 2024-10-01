@@ -52,3 +52,28 @@ VALUES
 ('16', 'Short_Manchester_United', "Inglaterra", '55000', (SELECT ID FROM categories WHERE Name = "Short"), (SELECT ID FROM size WHERE Sizes = "L"), (SELECT ID FROM color WHERE types_Colors = "Negro"), (SELECT ID FROM brands WHERE Name = "Adidas"), (SELECT ID FROM years WHERE Year = "2024"), NULL),
 
 ('17', 'Short_Atletico_Madrid', "España", '90000', (SELECT ID FROM categories WHERE Name = "Short"), (SELECT ID FROM size WHERE Sizes = "s"), (SELECT ID FROM color WHERE types_Colors = "Azul"), (SELECT ID FROM brands WHERE Name = "Nike"), (SELECT ID FROM years WHERE Year = "2020"), NULL);
+
+UPDATE `products` 
+SET Name = "Cam._Rosario_Central" 
+WHERE Name = "Cam._Chelsea_Formotion"
+
+SELECT * FROM `products`
+
+SELECT * FROM `products`
+WHERE Name = "Cam._Chelsea_Formotion"
+
+DELETE FROM `products`
+WHERE Name = "Cam._Chelsea_Formotion"
+
+SELECT * FROM `products`
+ORDER BY Name asc
+
+SELECT * FROM `products`
+ORDER BY Name desc
+LIMIT 8 OFFSET 8
+
+SELECT * FROM `products`
+ORDER BY Name desc
+LIMIT 1
+
+SELECT count(ID) FROM `products`
