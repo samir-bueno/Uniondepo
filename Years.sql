@@ -8,5 +8,25 @@ INSERT INTO `years`(`Year`)
 VALUES ('1980'),('1985'),('1990'),('1995'),('2000'),('2005'),('2010'),('2015'),('2020'),('2024');
 
 SELECT * FROM years
+WHERE ID = 1
 
+SELECT * FROM years
+ORDER BY Year asc
+
+SELECT * FROM years
+ORDER BY Year desc
+LIMIT 1 OFFSET 2
+
+SELECT * FROM years
+ORDER BY Year desc
+LIMIT 1
+
+SELECT count(ID) FROM years
+
+UPDATE years 
+SET Year = '1981'
+WHERE Year = '1980'
+
+DELETE FROM years
+WHERE Year = '1981'
 
